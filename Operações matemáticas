@@ -1,0 +1,26 @@
+
+package com.mycompany.calculadorabasica;
+import java.util.Scanner;
+public class CalculadoraBasica {
+
+    public static void main(String[] args) {
+        int n1;
+        int n2;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Qual o primeiro numero?");
+        n1 = input.nextInt();
+        System.out.println("Qual o segundo numero?");
+        n2 = input.nextInt();
+                
+       System.out.println("Soma: "+(n1+n2));
+       System.out.println("A soma entre "+(n1)+" mais "+(n2)+" somado a 12 é "+(n1+n2+12));
+       System.out.println("Subtração: "+(n1-n2));
+       System.out.println("A subtração entre "+(n1)+" menos "+(n2)+" subtraido com 5 é "+(n1-n2-5));
+       System.out.println("Multiplicação: "+(n1*n2));
+       System.out.println("A multiplicação entre "+(n1)+" x "+(n2)+" dividido por 2 é "+((n1*n2)/2));
+       System.out.println("Divisão: "+(n1/n2));
+       System.out.println("A divisão entre "+(n1)+" por "+(n2)+" multiplicado por 2 é "+((n1/n2)*2));
+       System.out.println("Porcentagem: "+((n1+n2)/100));
+    }
+}
